@@ -8,7 +8,7 @@ void main() {
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Application",
+      title: "Markdown Editor",
       initialRoute: AppPages.INITIAL,
       theme: ThemeData(),
       getPages: AppPages.routes,

@@ -17,7 +17,7 @@ class HomeView extends GetView<HomeController> {
     textMarkdownController.text = controller.data.value;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MD Book'),
+        title: const Text('Markdown Editor'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         surfaceTintColor: Theme.of(context).colorScheme.inversePrimary,
       ),
